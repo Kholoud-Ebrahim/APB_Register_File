@@ -1,0 +1,203 @@
+# vsim +UVM_TESTNAME=rf_wr_to_test -assertdebug -coverage -fsmdebug -c -debugDB top_opt 
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.param_pkg
+# Loading work.seq_item_pkg
+# Loading work.reg_model_pkg
+# Loading work.seq_lib_pkg
+# Loading work.rf_agent_pkg
+# Loading work.test_lib_pkg
+# Loading work.apb_rf_pkg
+# Loading work.top_sv_unit
+# Loading work.top(fast)
+# Loading work.apb_rf_intf(fast)
+# Loading work.apb_register_file(fast)
+# Loading D:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# 1
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test rf_wr_to_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               rf_wr_to_test           -     @460 
+#   rf_env_h                 apb_rf_env              -     @469 
+#     rf_agent_h             rf_agent                -     @489 
+#       rf_drv               rf_driver               -     @630 
+#         rsp_port           uvm_analysis_port       -     @645 
+#         sqr_pull_port      uvm_seq_item_pull_port  -     @637 
+#       rf_sqr               rf_sequencer            -     @521 
+#         rsp_export         uvm_analysis_export     -     @528 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @622 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+# --------------------------------------------------------------
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(18) @ 0: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(26) @ 100: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After Write timer_0 reg] timer_0_reg = 11
+# timer_y2r = 11
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(33) @ 140: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read timer_0 reg] timer_0_reg = 11
+# timer_y2r = 11
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = 11
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(18) @ 140: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(26) @ 180: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [After Write timer_0 reg] timer_0_reg = f
+# timer_y2r = f
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(18) @ 180: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(25) @ 220: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [After read timer_0 reg] timer_0_reg = f
+# timer_y2r = f
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = f
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(18) @ 220: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(26) @ 260: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After Write timer_0 reg] timer_0_reg = 4
+# timer_y2r = 4
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(33) @ 300: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read timer_0 reg] timer_0_reg = 4
+# timer_y2r = 4
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = 4
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(18) @ 300: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(26) @ 340: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [After Write timer_0 reg] timer_0_reg = 0
+# timer_y2r = 0
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(18) @ 340: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(25) @ 380: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [After read timer_0 reg] timer_0_reg = 0
+# timer_y2r = 0
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = 0
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(18) @ 380: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(26) @ 420: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After Write timer_0 reg] timer_0_reg = 4
+# timer_y2r = 4
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(33) @ 460: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read timer_0 reg] timer_0_reg = 4
+# timer_y2r = 4
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = 4
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(18) @ 460: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(26) @ 500: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [After Write timer_0 reg] timer_0_reg = a
+# timer_y2r = a
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(18) @ 500: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(25) @ 540: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [After read timer_0 reg] timer_0_reg = a
+# timer_y2r = a
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = a
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(18) @ 540: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(26) @ 580: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After Write timer_0 reg] timer_0_reg = a
+# timer_y2r = a
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_read_to.svh(33) @ 620: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read timer_0 reg] timer_0_reg = a
+# timer_y2r = a
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = a
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(18) @ 620: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_write_to.svh(26) @ 660: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_2 [After Write timer_0 reg] timer_0_reg = 0
+# timer_y2r = 0
+# timer_r2g = 0
+# timer_g2y = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(18) @ 660: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [Initial timer_0 reg] timer_0_reg = cafe1234
+# timer_y2r = 34
+# timer_r2g = e12
+# timer_g2y = caf
+# 
+# UVM_INFO E:/UVM/APB_register_file/tb/seq_lib//reg_seq_read_to.svh(25) @ 700: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_3 [After read timer_0 reg] timer_0_reg = 0
+# timer_y2r = 0
+# timer_r2g = 0
+# timer_g2y = 0
+# read_out = 0
+# UVM_INFO verilog_src/uvm-1.0p1/src/base/uvm_objection.svh(1116) @ 700: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   31
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [After Write timer_0 reg]     8
+# [After read timer_0 reg]     8
+# [Initial timer_0 reg]    12
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# ** Note: $finish    : D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 700 ns  Iteration: 50  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392
