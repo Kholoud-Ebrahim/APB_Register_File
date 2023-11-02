@@ -13,8 +13,8 @@ module apb_register_file #(parameter SIZE =32)(pclk, presetn, paddr, pwdata, pse
     reg [SIZE-1:0]     timer_0;    // timer_g2y[31:20], timer_r2g[19:8], timer_y2r[7:0] RW
     reg [SIZE-1:0]     timer_1;    // timer_g2y[31:20], timer_r2g[19:8], timer_y2r[7:0] RW
 
-    reg [SIZE-1:0]     data_in;
-    reg [SIZE-1:0]     rdata_tmp;
+    reg [31:0]     data_in;
+    reg [31:0]     rdata_tmp;
 
     // Set all registers to default values
     always @ (posedge pclk) begin
