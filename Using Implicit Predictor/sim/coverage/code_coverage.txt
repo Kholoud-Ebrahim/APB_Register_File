@@ -1,0 +1,16 @@
+Coverage Report Summary Data by file
+
+File: E:/UVM/APB_register_file/rtl/apb_register_file.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       17        16         1      94.1
+    Branches                    18        17         1      94.4
+    FEC Condition Terms          8         5         3      62.5
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+
+
+NEVER FAILED: 100.0%  ASSERTIONS: 25
+
+
