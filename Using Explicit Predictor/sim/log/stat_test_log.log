@@ -1,0 +1,255 @@
+# vsim +UVM_TESTNAME=rf_r_stat_test -assertdebug -coverage -fsmdebug -c -debugDB top_opt 
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.param_pkg
+# Loading work.seq_item_pkg
+# Loading work.reg_model_pkg
+# Loading work.seq_lib_pkg
+# Loading work.rf_agent_pkg
+# Loading work.test_lib_pkg
+# Loading work.apb_rf_pkg
+# Loading work.top_sv_unit
+# Loading work.top(fast)
+# Loading work.apb_rf_intf(fast)
+# Loading work.apb_register_file(fast)
+# Loading D:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# 1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 117
+#           Attempting to use alternate WLF file "./wlft1r1rv2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1r1rv2
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test rf_r_stat_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               rf_r_stat_test          -     @460 
+#   rf_env_h                 apb_rf_env              -     @469 
+#     predictor_h            uvm_component           -     @529 
+#       bus_in               uvm_analysis_imp        -     @536 
+#       reg_ap               uvm_analysis_port       -     @544 
+#     rf_agent_h             rf_agent                -     @481 
+#       rf_drv               rf_driver               -     @664 
+#         rsp_port           uvm_analysis_port       -     @679 
+#         sqr_pull_port      uvm_seq_item_pull_port  -     @671 
+#       rf_mon               rf_monitor              -     @687 
+#         mon_port           uvm_analysis_port       -     @694 
+#       rf_sqr               rf_sequencer            -     @555 
+#         rsp_export         uvm_analysis_export     -     @562 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @656 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     rf_scb                 apb_rf_scb              -     @514 
+#       scb_imp              uvm_analysis_imp        -     @521 
+# --------------------------------------------------------------
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 0: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 90: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 90: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 105: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 105: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 105: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 130: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 130: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 145: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 145: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 145: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 170: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 170: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 185: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 185: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 185: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 210: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 210: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 225: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 225: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 225: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 250: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 250: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 265: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 265: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 265: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 290: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 290: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 305: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 305: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 305: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 330: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 330: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 345: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 345: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 345: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 370: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 370: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 385: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 385: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 385: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 410: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 410: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 425: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 425: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 425: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 450: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 450: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 465: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 465: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 465: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 490: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 490: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 505: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 505: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 505: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 530: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 530: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 545: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 545: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 545: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 570: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 570: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 585: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 585: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 585: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 610: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 610: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 625: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 625: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 625: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 650: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 650: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 665: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 665: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 665: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 690: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 690: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 705: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 705: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 705: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 730: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 730: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 745: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 745: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 745: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 770: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 770: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 785: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 785: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 785: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 810: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(16) @ 810: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [Initial stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 825: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 825: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 825: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb/seq_lib//reg_seq_read_stat.svh(22) @ 850: uvm_test_top.rf_env_h.rf_agent_h.rf_sqr@@seq_1 [After read stat reg] stat_reg = 0
+# stat = 0
+# 
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(15) @ 865: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] data rcvd from mon_port, wr_enb =0, addr =12, din =0, dout =0
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(59) @ 865: uvm_test_top.rf_env_h.rf_scb [PASSED] ==== TEST IS PASSED ====
+# UVM_INFO E:/UVM/APB_register_file/explicit/tb//apb_rf_scb.svh(64) @ 865: uvm_test_top.rf_env_h.rf_scb [apb_rf_scb] output data is 0
+# UVM_INFO verilog_src/uvm-1.0p1/src/base/uvm_objection.svh(1116) @ 870: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  103
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [After read stat reg]    20
+# [Initial stat reg]    20
+# [PASSED]    20
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# [apb_rf_scb]    40
+# ** Note: $finish    : D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 870 ns  Iteration: 44  Instance: /top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392

@@ -1,0 +1,60 @@
+
+ASSERTION RESULTS:
+-------------------------------------------------------
+Name                 File(Line)           Failure Pass 
+                                          Count   Count 
+-------------------------------------------------------
+/uvm_pkg/uvm_callbacks/uvm_callbacks__1/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__2/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__3/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__4/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__5/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__6/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__7/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__8/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__9/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__10/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__11/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__12/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__13/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__14/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__15/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__16/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__17/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__18/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_callbacks/uvm_callbacks__19/initialize/immed__503
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_callback.svh(503)       0     4
+/uvm_pkg/uvm_phase/add/immed__1302
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_phases.svh(1302)       0    92
+/uvm_pkg/uvm_phase/get_domain/immed__1481
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_phases.svh(1481)       0  8408
+/uvm_pkg/uvm_component/new/#ublk#34#1719/immed__1723
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_component.svh(1723)       0   108
+/uvm_pkg/uvm_reg_predictor/uvm_reg_predictor__1/write/immed__648
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/reg/uvm_reg_sequence.svh(648)       0  1220
+/uvm_pkg/uvm_reg_map/do_bus_write/#anonblk#103#1702#2#/foreach_value/#anonblk#103#1728#2#/foreach_addr/immed__1752
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/reg/uvm_reg_map.svh(1752)       0   600
+/uvm_pkg/uvm_reg_map/Xget_bus_infoX/#ublk#103#1611/immed__1612
+                     D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/reg/uvm_reg_map.svh(1612)       0  1220
+/reg_model_pkg/apb_adapter/bus2reg/immed__22
+                     E:/UVM/APB_register_file/explicit/tb/register_model//apb_adapter.svh(22)       0  2440
+
+
